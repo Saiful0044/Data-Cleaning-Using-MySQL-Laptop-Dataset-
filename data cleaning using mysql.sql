@@ -72,7 +72,7 @@ SELECT * FROM laptop;
 SELECT DISTINCT(OpSys) FROM laptop;
 SELECT OpSys,
 CASE 
-	WHEN OpSys LIKE '%mac%' THEN 'macos'
+WHEN OpSys LIKE '%mac%' THEN 'macos'
     WHEN OpSys LIKE '%windows%' THEN 'windows'
     WHEN OpSys LIKE '%linux%' THEN 'linux'
     WHEN OpSys LIKE '%No OS%' THEN 'N/A'
